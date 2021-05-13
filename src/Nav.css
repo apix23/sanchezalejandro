@@ -2,10 +2,36 @@ nav {
   min-height: 80vh;
   min-width: 20vw;
   background-color: #fff;
-  margin: auto;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  box-shadow: 4px 6px 6px rgb(185, 177, 177);
+  padding: 4rem 0 1rem 0;
+}
+.nav__linksContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav__links {
+  text-decoration: none;
+  color: #707070;
+  margin-bottom: 2rem;
+  display: block;
+  font-weight: 500;
+}
+
+.nav__links:hover {
+  color: #f2dc12;
+}
+
+.nav__socialMedia {
+  display: flex;
+}
+
+.nav__socialMedia img {
+  height: 3rem;
 }
