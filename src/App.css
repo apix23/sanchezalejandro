@@ -1,11 +1,23 @@
+:root {
+  --primary: #f2dc12;
+  --secondary: #707070;
+  --p__hover: #ffec3d;
+  --sumplementary: #1fa8e6;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 body {
   background-color: #ebebeb;
+}
+
+h2 {
+  margin-bottom: 2rem;
 }
 
 main {

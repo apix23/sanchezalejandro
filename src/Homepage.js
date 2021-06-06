@@ -8,9 +8,9 @@ import node from "./images/node.png";
 import react from "./images/reactLogo.png";
 const Homepage = () => {
   return (
-    <main className="homepage">
+    <>
       <section className="homepage__section">
-        <article>
+        <article className="home__article">
           <h2 className="text-center">Alejandro Sanchez</h2>
           <h1 className="text-center">
             Fullstack <br /> Developer
@@ -37,8 +37,7 @@ const Homepage = () => {
           className="circle__image"
         />
       </section>
-      <Footer></Footer>
-    </main>
+    </>
   );
 };
 

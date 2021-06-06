@@ -21,12 +21,12 @@
 .homepage__section h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #707070;
+  color: var(--secondary);
 }
 
 .homepage__section h1 {
   font-size: 3.5rem;
-  color: #f2dc12;
+  color: var(--primary);
 }
 
 .homepage__section h1,
@@ -42,7 +42,7 @@ h3 {
   height: max(2rem);
 }
 
-article {
+home__article {
   height: min(22rem);
   width: min(22rem);
 }
